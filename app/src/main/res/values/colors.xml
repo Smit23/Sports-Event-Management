@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#221741</color>
+    <color name="colorPrimaryDark">#17102d</color>
+    <color name="colorAccent">#392473</color>
+    <color name="colorbutton">#ede7e7</color>
+    d1490a
+    <color name="eventdetail">#fb545452</color>
+    <color name="white">#f1efef</color>
+    <color name="eventtiles">#d2cae7</color>
+    <color name="backcolor">#fdfdfd</color>
+    <color name="black">#0e0e0e</color>
+    <color name="black1">#020202</color>
+</resources>

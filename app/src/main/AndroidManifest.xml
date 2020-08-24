@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arsheya.sportseventmanagement">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".registration" />
+        <activity
+            android:name=".player"
+            android:label="@string/title_activity_player"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".organizer"
+            android:label="@string/title_activity_organizer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".addevent" />
+        <activity android:name=".myevent" />
+        <activity android:name=".Event_Details" />
+        <activity android:name=".Searchevent_activity" />
+        <activity android:name=".Search_event_display_activity" />
+        <activity android:name=".Eventdetails_players" />
+        <activity android:name=".distributor" />
+        <activity
+            android:name=".distributorhome"
+            android:label="@string/title_activity_distributorhome" />
+        <activity android:name=".MyEventParticipats" />
+        <activity android:name=".MyEventDetail" />
+        <activity android:name=".View_Participant_List" />
+        <activity android:name=".searchparticipant" />
+        <activity android:name=".participant_details" />
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".OtpMatch" />
+        <activity android:name=".Changepassword"></activity>
+    </application>
+
+</manifest>
